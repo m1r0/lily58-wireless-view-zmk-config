@@ -1,0 +1,125 @@
+layout: {qmk_keyboard: lily58_rotated}
+layers:
+  Base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', TAB, Q, W, F, P, B, J, L, U, Y, ;, '-', LCTRL, A, R, S, T, G, M, N, E, I, O, '''', LSHFT, Z,
+    X, C, D, V, '[', ']', K, H, ',', ., /, RSHFT, LALT, LGUI, Lower, ENTER, SPACE, Lower, BSPC, RGUI]
+  Lower:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
+  - '*'
+  - +
+  - '-'
+  - '['
+  - ']'
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - {t: ▽, type: trans}
+  - F12
+  - {t: ▽, type: trans}
+  - '&'
+  - '!'
+  - '='
+  - (
+  - )
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $
+  - \
+  - '|'
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CAPS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Settings:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [52, 55]
+  k: Settings
